@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dax</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
+<link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,400;0,600;1,300;1,400;1,600&family=Muli:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css">
+
+    
+  </head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+      <a href="#home" class="w3-bar-item w3-button w3-wide">Pokoje 64</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#home" class="w3-bar-item w3-button"><i class="fa fa-home"></i>HOME</a>
+      <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-th"></i>ABOUT</a>
+      <a href="#rooms" class="w3-bar-item w3-button"><i class="fa fa-bed"></i>ROOMS</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+      <a href="#location" class="w3-bar-item w3-button"><i class="fas fa-map-marker-alt"></i>LOCATION</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#rooms" onclick="w3_close()" class="w3-bar-item w3-button">ROOMS</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="header" id="home">
+        <div class="img-wrapper">
+          <img src="images/house-rear.jpg" />
+        </div>
+        <div class="banner">
+          <h1>Pokoje 64</h1>
+          <p>Modern Holiday accomodation in Ustroń .</p>
+          <a href="#contact"><button>Book now</button></a>
+        </div>
+      </header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">ABOUT US</h3>
+  <p class="w3-center w3-large">Key features</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    
+    <div class="w3-quarter">
+      <i class="material-symbols-outlined">tv</i>
+      <p class="w3-large">TV</p>
+      <p>All rooms with flatscreen TV.</p>
+    </div>
+
+    <div class="w3-quarter">
+      <i class="material-symbols-outlined">shower</i>
+      <p class="w3-large">En Suite Bathroom </p>
+      <p>Each room has a private bathroom.</p>
+    </div>
+
+<div class="w3-quarter ">
+      <i class="material-symbols-outlined">wifi</i>
+      <p class="w3-large">Free Wifi</p>
+      <p>All rooms have free wifi access</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="material-symbols-outlined">pets</i>
+      <p class="w3-large">Pet Friendly</p>
+      <p>We allow pets, please contact us for terms and conditions.</p>
+    </div>
+
+<div class="w3-quarter">
+      <i class="material-symbols-outlined">child_friendly</i>
+      <p class="w3-large">Child Friendly</p>
+      <p>Family rooms and baby cots available.</p>
+    </div>
+
+
+    <div class="w3-quarter">
+      <i class="material-symbols-outlined">kitchen</i>
+      <p class="w3-large">Fully equipped kitchen</p>
+      <p>We have 2 fully equipped communal kitchens.</p>
+    </div>
+
+
+<div class="w3-quarter ">
+      <i class="material-symbols-outlined">outdoor_grill</i>
+      <p class="w3-large">Communal BBQ</p>
+      <p>We have an ootdoor BBQ area.</p>
+    </div>
+<div class="w3-quarter ">
+      <i class="material-symbols-outlined">deck</i>
+      <p class="w3-large">Terrace or Balcony</p>
+      <p>All rooms have a balcony or terrace to enjoy the sunshine.</p>
+    </div>
+<div class="w3-quarter ">
+      <i class="material-symbols-outlined">celebration</i>
+      <p class="w3-large">Ideal for Parties and Celebrations</p>
+      <p>Book the whole house and celebrate with family and friends.</p>
+    </div>
+
+<div class="w3-quarter ">
+      <i class="material-symbols-outlined">train</i>
+      <p class="w3-large">Close to Train Station</p>
+      <p>Only a 4 minute walk from Ustroń Brzegi train station.</p>
+    </div>
+
+<div class="w3-quarter">
+      <i class="material-symbols-outlined">local_parking</i>
+      <p class="w3-large">Free Parking</p>
+      <p>Free parking on the premises.</p>
+    </div>
+<div class="w3-quarter">
+      <i class="material-symbols-outlined">shopping_cart</i>
+      <p class="w3-large">Shopping</p>
+      <p>Supermarket and bakery 3 minute walk away. </p>
+    </div>
+
+    </div>
+
+  </div>
+</div>
+
+<!-- Promo Section-->
+<!-- <div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>We love Sunshine.</h3>
+      <p>All rooms have a balcony or terrace.<br>Enjoy the BBQ area.</p>
+      <p><a href="#rooms" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Rooms</a></p>
+    </div>
+    <div class="w3-col m6">
+     
+  
+    <div class="w3-col m6">
+      <img src="images/BBQ.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="BBQ area">
+    </div>
+     <div class="w3-col m6">
+      <img src="images/outsideRearA.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Balcony & Terrace">
+    </div>
+  </div>
+</div> -->
+<div class="w3-container" style="padding:128px 16px">
+  <h3 class="w3-center">WE LOVE SUNSHINE</h3>
+  <p class="w3-center w3-large"></p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    
+    
+    <div class="w3-col l3 m6">
+      <img src="images/BBQ.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Room">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="images/outsideRearA.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Room">
+    </div>
+  
+   <!--  <div class="w3-col l3 m6">
+      <img src="images/Kitchen-1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Kitchen">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="images/Kitchen-2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Kitchen">
+    </div>
+  </div> -->
+</div>
+<!-- Room Section -->
+<div class="w3-container" style="padding:128px 16px" id="rooms">
+  <h3 class="w3-center">OUR ROOMS</h3>
+  <p class="w3-center w3-large"></p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    
+    
+    <div class="w3-col l3 m6">
+      <img src="images/room4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Room">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="images/room5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Room">
+    </div>
+  
+    <div class="w3-col l3 m6">
+      <img src="images/Kitchen-1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Kitchen">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="images/Kitchen-2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Kitchen">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  <div style="margin-top:48px">
+    
+   <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i class='address'> ul. 3 Maja 64,Ustron 43-450</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +48 533 125 018</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+    <br>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-black" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+</div>
+
+    <!-- Image of location/map -->
+    <div class="location" id="location"></div>
+     <h3 class="w3-center">Where to find us!</h3>
+    <div class="map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2580.0227187395153!2d18.814832404426458!3d49.71037400640842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47141b3a881d2199%3A0xb3cf0210a552304e!2sPokoje%2064!5e0!3m2!1sen!2spl!4v1673701465632!5m2!1sen!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+    <img src="images/ustron.jpg" class="w3-image" style="width:100%;margin-top:48px">
+    
+  </div>
+
+
+<!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    
+  </div>
+ <p class="w3-small">eltoBenjo</p>
+ 
+</footer>
+ 
+<script src="scripts.js"></script>
+
+</body>
+</html>
