@@ -1,26 +1,32 @@
-body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
-
-    body, html {
-      height: 100%;
-      line-height: 1.8;
-      scroll-behavior: smooth;
-    }
-
-    
-#logo{
- font-size: 1.5rem;
- padding: 0;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
 }
 
-    .w3-bar .w3-button {
-    
-font-size: 1.2rem;
+body,
+html {
+  height: 100%;
+  line-height: 1.8;
+  scroll-behavior: smooth;
+}
 
-    }
+#logo {
+  font-size: 1.5rem;
+  padding: 0;
+}
 
-    .material-symbols-outlined{
-      font-size: 6rem;
-    }
+.w3-bar .w3-button {
+  font-size: 1.1rem;
+}
+
+.material-symbols-outlined {
+  font-size: 6rem;
+}
 
 .header {
   width: 100%;
@@ -44,9 +50,6 @@ font-size: 1.2rem;
   opacity: 0.5;
   animation: scale 25s;
 }
-
-
- 
 
 @keyframes scale {
   0% {
@@ -97,7 +100,6 @@ font-size: 1.2rem;
 }
 
 .banner p {
- 
   font-size: 2rem;
   color: #fff;
   width: 70%;
@@ -122,8 +124,8 @@ font-size: 1.2rem;
   cursor: pointer;
   opacity: 0;
   animation: moveBanner 1s 0.9s forwards;
-} 
-.contact-icon{
+}
+.contact-icon {
   width: 50%;
   margin: auto;
 }
@@ -133,23 +135,17 @@ form {
   margin: auto;
 }
 
-
-
-#location{  
+#location {
   background-position: center;
-      background-size: cover;
-      background-image: url("images/ustron.jpg");
-      min-height: 100vh;
+  background-size: cover;
+  background-image: url("images/ustron.jpg");
+  min-height: 100vh;
 }
 
-#map{
- 
+#map {
   max-width: 50%;
   margin: auto;
 }
-
-
-
 
 @keyframes moveBanner {
   0% {
